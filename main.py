@@ -10,7 +10,7 @@ except ValueError:
 if city_number not in (1, 2, 3):
     raise ValueError('Введена не корректная цифра')
 cities = {1: 'Лондон', 2: 'Шереметьево', 3: 'Череповец'}
-url_template = 'https://wttr.in/{}?nTqmM&lang=ru%20HTTP/1.1'
+url_template = 'http://www.wttr.in/{}?nTqmM&lang=ru%20HTTP/1.1'
 url = url_template.format(cities[city_number])
 response = requests.get(url)
 response.raise_for_status()

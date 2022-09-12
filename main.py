@@ -3,8 +3,7 @@ import requests
 
 params = {
     'nTqmM': '',
-    'lang': 'ru',
-    ' HTTP/1.1': ''
+    'lang': 'ru'
 }
 url_template = 'http://www.wttr.in/{}'
 cities = ('Лондон', 'Шереметьево', 'Череповец')

@@ -6,6 +6,10 @@ The script shows the weather forecast for London, airport Sheremetyevo and Chere
 
 Just run the script "python main.py"
 
+```
+python main.py
+```
+
 ### Prerequisites
 
 You need to install the python interpreter and "requests" module
